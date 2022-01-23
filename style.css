@@ -1,0 +1,39 @@
+.form-main {
+  border: 1px solid black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.form-main h1,
+h4 {
+  margin-top: 2%;
+}
+
+h4 {
+  margin-bottom: 2%;
+}
+
+.form-items {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding: 5%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+  .button-group button {
+    width: 95%;
+    margin-bottom: 4%;
+  }
+}
